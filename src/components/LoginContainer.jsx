@@ -1,9 +1,14 @@
-const LoginContainer = ({ children }) => {
+import React from 'react';
+import './Login.css'; // certifique-se de criar esse arquivo
+
+const LoginContainer = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen w-full">
-      <div className="bg-purple-500 p-8 rounded-lg shadow-md w-full max-w-md">
-        {children}
-      </div>
+    <div className="login-container">
+      <h1 className="logo"></h1>
+
+      <input type="email" placeholder="Email" className="login-input" />
+      <input type="password" placeholder="Senha" className="login-input" />
+      <button className="login-button">Entrar</button> {/* Estilo apenas para o botão Entrar */}
     </div>
   );
 };

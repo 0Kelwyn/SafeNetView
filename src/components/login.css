@@ -1,0 +1,25 @@
+/* Estilos para o botão de login */
+.login-button {
+  background: linear-gradient(to right, #8e2de2, #4a00e0); /* Gradiente roxo */
+  color: white; /* Cor do texto */
+  padding: 16px 32px; /* Mais espaço ao redor do texto */
+  font-size: 18px; /* Tamanho da fonte */
+  border-radius: 10px; /* Bordas arredondadas */
+  border: none; /* Sem borda */
+  width: 300px; /* Largura do botão */
+  cursor: pointer; /* Cursor de ponteiro */
+  transition: all 0.3s ease; /* Transição suave para todos os efeitos */
+  box-shadow: 0 0 15px rgba(142, 45, 226, 0.7); /* Sombra inicial do botão (brilho suave) */
+}
+
+/* Efeito de hover (quando o mouse passa sobre o botão) */
+.login-button:hover {
+  box-shadow: 0 0 25px rgba(142, 45, 226, 1); /* Efeito de brilho mais forte no hover */
+  transform: translateY(-2px); /* Levanta o botão levemente */
+}
+
+/* Efeito de focus (quando o botão recebe o foco) */
+.login-button:focus {
+  outline: none; /* Remove a borda padrão */
+  box-shadow: 0 0 0 4px rgba(98, 0, 234, 0.4); /* Sombra ao redor do botão */
+}
